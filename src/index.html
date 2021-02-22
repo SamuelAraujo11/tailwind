@@ -7,6 +7,9 @@
     <title>Tailwind</title>
   
     <link rel="stylesheet" href="./tailwind.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
     
     
 
@@ -14,8 +17,8 @@
 <body class="w-full">
     
 <header class="w-full ">
-   <nav class=" text-gray-600">
-        <ul class="flex space-x-24 p-14 justify-center w-full">
+   <nav class=" text-gray-600 flex-wrap">
+        <ul class="flex flex-wrap space-x-24 p-14 justify-center w-full ">
            
             <li><a  href="#" class=" hover:text-red-400">Introdution</a></li>
             <li><a href="#"class=" hover:text-red-400">Dropdown</a></li>
@@ -27,15 +30,31 @@
     </nav>
 </header>    
 
- <div class="w-full flex justify-center p-14">
+ <div class="w-full flex flex-wrap justify-center p-14">
 
     <h1> <a href="#" class="text-red-400 text-7xl">Strongly Typed</a> </h1>
-    <br>
-    <p class="">A RESPONSIVE HTML5 SITE TEMPLATE. MANUFACTURED BY HTML5 UP</p>
+
+    <div class="flex w-full justify-center">
+        <p class="m-10 text-gray-700 justify-center">A RESPONSIVE HTML5 SITE TEMPLATE. MANUFACTURED BY HTML5 UP</p>
+    </div>
+
+</div>
+
+<div class="flex flex-wrap justify-center">
+    <hr width="90%" size="200">    
+    <hr width="90%" size="200">
+
+    <hr class="p-1"width="90%" size="200">    
+    <hr width="90%" size="200">
+    <hr width="90%" size="200">
+    <hr width="90%" size="200">
+</div>
 
 
- </div>
  
+ 
+
+
   
            
 </body>
